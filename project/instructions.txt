@@ -1,0 +1,4 @@
+conda env create --file ultra.yml
+conda activate ultra
+jupyter lab
+run commands
