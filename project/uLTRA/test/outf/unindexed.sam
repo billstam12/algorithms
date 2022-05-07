@@ -1,0 +1,8 @@
+@SQ	SN:SIRV1	LN:12643
+@SQ	SN:SIRV2	LN:6911
+@SQ	SN:SIRV3	LN:10943
+@SQ	SN:SIRV4	LN:16122
+@SQ	SN:SIRV5	LN:14606
+@SQ	SN:SIRV6	LN:12837
+@SQ	SN:SIRV7	LN:148957
+@PG	ID:minimap2	PN:minimap2	VN:2.22-r1101	CL:minimap2 -ax splice --eqx -k 15 -t 3 SIRV_genes.fasta reads.fa

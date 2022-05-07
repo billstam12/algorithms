@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="NAM_seeds">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/data/results/NAM_seeds/plots_sim.zip!/" />
+      <root url="jar://$PROJECT_DIR$/data/results/NAM_seeds/plots_bio.zip!/" />
+      <root url="jar://$PROJECT_DIR$/data/results/NAM_seeds/plots_exon_size.zip!/" />
+      <root url="jar://$PROJECT_DIR$/data/results/NAM_seeds/plots_sirv_analysis.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

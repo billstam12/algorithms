@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="results">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/data/results/map_concordance_bio.zip!/" />
+      <root url="jar://$PROJECT_DIR$/data/results/plots_bio.zip!/" />
+      <root url="jar://$PROJECT_DIR$/data/results/plots_sim_max_diff0.zip!/" />
+      <root url="jar://$PROJECT_DIR$/data/results/plots_exon_size_max_diff0.zip!/" />
+      <root url="jar://$PROJECT_DIR$/data/results/plots_exon_size.zip!/" />
+      <root url="jar://$PROJECT_DIR$/data/results/plots_sim.zip!/" />
+      <root url="jar://$PROJECT_DIR$/data/results/plots_sirv_analysis.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
