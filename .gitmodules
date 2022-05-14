@@ -1,0 +1,9 @@
+[submodule "project/uLTRA/minimap2"]
+        path = project/uLTRA/minimap2
+        url = https://github.com/lh3/minimap2.git
+[submodule "project/uLTRA/slaMEM"]
+	path = project/uLTRA/slaMEM
+	url = https://github.com/fjdf/slaMEM.git
+[submodule "project/uLTRA/graphmap"]
+	path = project/uLTRA/graphmap
+	url = https://github.com/isovic/graphmap.git
