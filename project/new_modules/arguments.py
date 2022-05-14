@@ -30,7 +30,7 @@ class arguments:
         self.keep_temporary_files = False # Keeps all intermediate files used for the alignment. This parameter is manily good for bugfixing and development.'
 
         self.slamem_path = "uLTRA/slaMEM/slaMEM"
-        self.mummer_path = "uLTRA/mummer/mummer"
+        self.mummer_path = "uLTRA/mummer-4.0.0rc1/mummer"
         self.minimap_path = "uLTRA/minimap2/minimap2"
         self.desalt_index = desalt_index
         self.ref = ref # path to reference genome

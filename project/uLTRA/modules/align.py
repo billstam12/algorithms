@@ -500,6 +500,8 @@ def align_single(reads, refs_lengths, args,  batch_number):
         #     print(all_chainings)
         best_chaining_score = all_chainings[0][2]
         read_alignments = []
+
+        # HERE IS DP
         mam_solutions = set()
         for i_nr_sol, (chr_id, mem_solution, chaining_score, is_rc) in enumerate(all_chainings):
             # print(i_nr_sol, chr_id, chaining_score)
