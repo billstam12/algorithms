@@ -38,6 +38,6 @@ class arguments:
         self.gtf = gtf # path to annotations file
         self.desalt_gtf = desalt_gtf # path to desalt annotations file
         self.reads = reads # path to reads file
-        self.disable_infer = False
+        self.disable_infer = disable_infer
         self.verbose = False
         
