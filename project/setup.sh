@@ -23,7 +23,7 @@ make
 
 cd ..
 
-git clone https://github.com/lbcb-sci/graphmap2.git  
+# graphmap
 cd graphmap2
 make modules  
 make  
@@ -31,8 +31,6 @@ make
 cd ..
 
 #desalt
-
-git clone --recursive https://github.com/ydLiu-HIT/deSALT.git
 cd deSALT/src/deBGA-master/
 make   ## built deBGA for RdBG-index
 cd ..
