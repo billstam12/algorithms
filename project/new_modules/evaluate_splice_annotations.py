@@ -546,7 +546,7 @@ def evaluate_splice_annotations(args, sam_file, alg):
     splice_annotations_path = os.path.join(args.outfolder, "splice_annotations.csv")
     if (os.path.exists(counts_path) and os.path.exists(splice_annotations_path)):
         return json.load(open(counts_path))
-    annotated_ref_isoforms, annotated_splice_coordinates, annotated_splice_coordinates_pairs, exon_intervals = get_annotated_splicesites(args.gtf, True, args.outfolder)
+    annotated_ref_isoforms, annotated_splice_coordinates, annotated_splice_coordinates_pairs, exon_intervals = get_annotated_splicesites(args.gtf, not args.disable_infer, args.outfolder)
     pickle_dump(annotated_ref_isoforms, os.path.join( args.outfolder, 'annotated_ref_isoforms.pickle') )
     pickle_dump(annotated_splice_coordinates, os.path.join( args.outfolder, 'annotated_splice_coordinates.pickle') )
     pickle_dump(annotated_splice_coordinates_pairs, os.path.join( args.outfolder, 'annotated_splice_coordinates_pairs.pickle') )

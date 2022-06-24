@@ -32,6 +32,8 @@ class arguments:
         self.slamem_path = "uLTRA/slaMEM/slaMEM"
         self.mummer_path = "uLTRA/mummer-4.0.0rc1/mummer"
         self.minimap_path = "uLTRA/minimap2/minimap2"
+        self.desalt_path = "deSALT/src/deBGA"
+        self.graphmap_path = "uLTRA/graphmap2/bin/Linux-x64/graphmap2"
         self.desalt_index = desalt_index
         self.ref = ref # path to reference genome
         self.bed = bed # path to bed annotations file

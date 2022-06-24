@@ -236,7 +236,6 @@ def get_annotated_splicesites(ref_gff_file, infer_genes, outfolder):
     db_name = os.path.join(outfolder, 'database.db')
     if infer_genes:
         fn = gffutils.example_filename(os.path.abspath(ref_gff_file))
-        print(fn)
         db = gffutils.create_db(fn, dbfn=db_name, force=True, keep_order=True, merge_strategy='merge', 
                                 sort_attribute_values=True)
         db = gffutils.FeatureDB(db_name, keep_order=True)
