@@ -4,9 +4,9 @@
 [submodule "project/uLTRA/slaMEM"]
 	path = project/uLTRA/slaMEM
 	url = https://github.com/fjdf/slaMEM.git
-[submodule "project/uLTRA/graphmap"]
-	path = project/uLTRA/graphmap
-	url = https://github.com/isovic/graphmap.git
-[submodule "project/uLTRA/deSALT"]
-	path = project/uLTRA/deSALT
+[submodule "graphmap"]
+	path = graphmap
+	url = https://github.com/isovic/graphmap
+[submodule "deSALT"]
+	path = deSALT
 	url = https://github.com/ydLiu-HIT/deSALT
