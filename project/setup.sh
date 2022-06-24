@@ -31,4 +31,9 @@ make
 cd ..
 
 #desalt
-installed with conda
+
+git clone --recursive https://github.com/ydLiu-HIT/deSALT.git
+cd deSALT/src/deBGA-master/
+make   ## built deBGA for RdBG-index
+cd ..
+make   ## built deSALT for alignment
