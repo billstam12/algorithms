@@ -7,3 +7,6 @@
 [submodule "project/uLTRA/graphmap"]
 	path = project/uLTRA/graphmap
 	url = https://github.com/isovic/graphmap.git
+[submodule "project/uLTRA/deSALT"]
+        path = project/uLTRA/deSALT
+        url = https://github.com/ydLiu-HIT/deSALT
