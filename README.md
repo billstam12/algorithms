@@ -12,5 +12,5 @@ Install conda environment through conda env create -f ultra.yml
 If there are errors due to OS issues, you may need to install them by hand.
 
 Step 4.
-Launch Jupyter Notebook.
+Launch Jupyter Notebook and opens answers.ipynb
 
