@@ -24,7 +24,7 @@ make
 cd ..
 
 # graphmap
-cd graphmap2
+cd graphmap
 make modules  
 make  
 
